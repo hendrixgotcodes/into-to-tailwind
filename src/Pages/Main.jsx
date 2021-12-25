@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
     return (
-        <main className='text-gray-600 px-16 py-6 font-body'>
+        <main className='text-gray-600 px-16 py-6 font-body bg-grey-100'>
             <div className='flex justify-center md:justify-end'>
                 <a href="#" className='text-primary'>Login</a>
                 <a href="#" className='text-primary ml-2'>Sign up</a>
@@ -17,11 +17,11 @@ export default function Main() {
             <div>
                 
                 <h4 className='font-bold mt-12 pb-2 border-b border-gray-200'>Latest Recipes</h4>
-                <div className='mt-8'>
-                    <img src="img/stew.jpg" alt="stew" />
-                    <div>
-                        <span>5 Bean Chill Stew</span>
-                        <span>A recipe by Mario</span>
+                <div className='mt-8 bg-white rounded overflow-hidden shadow-md'>
+                    <img src="img/stew.jpg" alt="stew" className='w-full h-32 sm:h-48 object-cover' />
+                    <div className='mg-4'>
+                        <span className='font-bold'>5 Bean Chill Stew</span>
+                        <span className='block text-gray-500 text-sm'>A recipe by Mario</span>
                     </div>
                 </div>
 
