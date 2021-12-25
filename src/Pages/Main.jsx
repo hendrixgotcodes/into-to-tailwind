@@ -3,7 +3,7 @@ import React from 'react'
 export default function Main() {
     return (
         <main className='text-gray-600 px-16 py-6 font-body'>
-            <div className='flex justify-end'>
+            <div className='flex justify-center md:justify-end'>
                 <a href="#" className='text-primary'>Login</a>
                 <a href="#" className='text-primary ml-2'>Sign up</a>
             </div>
