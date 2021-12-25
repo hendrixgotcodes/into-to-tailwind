@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Main() {
     return (
-        <main className='text-gray-600 px-16 py-6'>
+        <main className='text-gray-600 px-16 py-6 font-body'>
             <div>
                 <a href="#" className='text-primary'>Login</a>
                 <a href="#">Sign up</a>

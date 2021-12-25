@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className='text-gray-600'>
+        <div className='text-gray-600 font-body'>
             <nav>
                 <div>
                     <h1 className='font-bold uppercase border-b border-gray-100'>
