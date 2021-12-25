@@ -4,7 +4,7 @@ export default function Main() {
     return (
         <main className='text-gray-600 px-16 py-6'>
             <div>
-                <a href="#">Login</a>
+                <a href="#" className='text-primary'>Login</a>
                 <a href="#">Sign up</a>
             </div>
             <header>
@@ -27,7 +27,7 @@ export default function Main() {
                 <div></div>
 
                 <div className='mt-8'>
-                    <div>Load more</div>
+                    <div className='bg-secondary-100 text-secondary-200'>Load more</div>
                 </div>
 
             </div>
